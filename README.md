@@ -53,7 +53,7 @@ Under the Disk tab, leave everything as is and click Next:  <br/>
 <img src="https://i.imgur.com/JYlesP1.png" height="80%" width="80%" alt="Azure Sentinel Tutoria"/>
 <br />
 <br />
-Under the Netwok tab, the NIC nik network security group click on "Advance" and under the Configure network security group click on "Create new". You can see this as a firewall for the VM, this firewall is gonna be essentially open for everythinng and everyone public to the internet:  <br/>
+Under the Netwoking tab, the NIC nik network security group click on "Advance" and under the Configure network security group click on "Create new". You can see this as a firewall for the VM, this firewall is gonna be essentially open for everythinng and everyone public to the internet:  <br/>
 <img src="https://i.imgur.com/4rzpkeF.png" height="80%" width="80%" alt="Azure Sentinel Tutorial"/>
 <br />
 <br />
@@ -78,11 +78,10 @@ Now, create a log analytics workspace, type in the search box log analytics then
 <br />
 <br />
 The purpose of this is to ingest logs from the virtual machine. We're going to ingest windows event logs and then going to create our own custom log that contains geographic information so we can discover where the attackers are coming from. So, to do that we're going to create a log analytics log analytics workspace this is where those logs will be stored and then our sim or Azure Sentinel will connect to this workspace to be able to display that geodata on the map for us to view:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Azure Sentinel Tutorial"/>
 <br />
 <br />
-Create a username and password, make sure you remember what it is because we're going to use this to log into the virtual machine:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Azure Sentinel Tutorial"/>
+For the Resource Group we are going to enter the vm we created, so select honeypotlab. In the Instance Details Name, we can name it law-honeypot1 (law for Log Analytics Workspace) and for the region again just put in put it in West US 2 and then we will click Review and Create:  <br/>
+<img src="https://i.imgur.com/38Ol3B3.png" height="80%" width="80%" alt="Azure Sentinel Tutorial"/>
 <br />
 <br />
 Create a username and password, make sure you remember what it is because we're going to use this to log into the virtual machine:  <br/>
