@@ -80,12 +80,18 @@ Now, create a log analytics workspace, type in the search box log analytics then
 The purpose of this is to ingest logs from the virtual machine. We're going to ingest windows event logs and then going to create our own custom log that contains geographic information so we can discover where the attackers are coming from. So, to do that we're going to create a log analytics log analytics workspace this is where those logs will be stored and then our sim or Azure Sentinel will connect to this workspace to be able to display that geodata on the map for us to view:  <br/>
 <br />
 <br />
-For the Resource Group we are going to enter the vm we created, so select honeypotlab. In the Instance Details Name, we can name it law-honeypot1 (law for Log Analytics Workspace) and for the region again just put in put it in West US 2 and then we will click Review and Create:  <br/>
+For the Resource Group we are going to enter the vm we created, so select honeypotlab. In the Details Name, we can name it law-honeypot1 (law for Log Analytics Workspace) and for the region again just put in put it in West US 2 and then we will click Review and Create:  <br/>
 <img src="https://i.imgur.com/38Ol3B3.png" height="80%" width="80%" alt="Azure Sentinel Tutorial"/>
 <br />
 <br />
-Create a username and password, make sure you remember what it is because we're going to use this to log into the virtual machine:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Azure Sentinel Tutorial"/>
+Let's go to Security Center and enable the ability to gather logs from the virtual machine into the log analytics workspace go to the left and click on Pricing & Settings. <br /> 
+And click the log analytics workspace that was just made (law-honeypot1) and then turn Azure Defender on. <br />
+And then we're going to turn SQL servers Off because we don't need to actually do anything with SQL server and then we're going to click Save. <br />
+On then on the left you'll see Data collection, click it and then we're going to Click on All Events and then click Sve this:  <br/>
+<img src="https://i.imgur.com/UnSvW3d.png" height="80%" width="80%" alt="Azure Sentinel Tutorial"/>
+<img src="https://i.imgur.com/ELKcxeY.png" height="80%" width="80%" alt="Azure Sentinel Tutorial"/>
+<img src="https://i.imgur.com/UnSvW3d.png" height="80%" width="80%" alt="Azure Sentinel Tutorial"/>
+ 
 <br />
 <br />
 Create a username and password, make sure you remember what it is because we're going to use this to log into the virtual machine:  <br/>
