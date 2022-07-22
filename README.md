@@ -84,18 +84,26 @@ For the Resource Group we are going to enter the vm we created, so select honeyp
 <img src="https://i.imgur.com/38Ol3B3.png" height="80%" width="80%" alt="Azure Sentinel Tutorial"/>
 <br />
 <br />
-Let's go to Security Center and enable the ability to gather logs from the virtual machine into the log analytics workspace go to the left and click on Pricing & Settings. <br /> 
-And click the log analytics workspace that was just made (law-honeypot1) and then turn Azure Defender on. <br />
-And then we're going to turn SQL servers Off because we don't need to actually do anything with SQL server and then we're going to click Save. <br />
-On then on the left you'll see Data collection, click it and then we're going to Click on All Events and then click Sve this:  <br/>
+Let's go to Security Center and enable the ability to gather logs from the virtual machine into the log analytics workspace, go to the left and click on Pricing & Settings: <br /> 
+<img src="https://i.imgur.com/UnSvW3d.png" height="80%" width="80%" alt="Azure Sentinel Tutorial"/> 
+<br />
+And click the log analytics workspace that was just made (law-honeypot1): <br />
+<img src="https://i.imgur.com/7GCMS2p.png" height="80%" width="80%" alt="Azure Sentinel Tutorial"/>
+<br />
+Turn Azure Defender on, then we're going to turn SQL servers Off because we don't need to actually do anything with SQL server, then we're going to click Save: <br />
+<img src="https://i.imgur.com/tzE3uEV.png" height="80%" width="80%" alt="Azure Sentinel Tutorial"/> 
+<br />
+On then on the left you'll see Data collection, click it and then we're going to Click on All Events and then click Save:  <br/>
 <img src="https://i.imgur.com/UnSvW3d.png" height="80%" width="80%" alt="Azure Sentinel Tutorial"/>
-<img src="https://i.imgur.com/ELKcxeY.png" height="80%" width="80%" alt="Azure Sentinel Tutorial"/>
+<img src="https://i.imgur.com/7GCMS2p_d.jpg?maxwidth=520&shape=thumb&fidelity=high" height="80%" width="80%" alt="Azure Sentinel Tutorial"/>
 <img src="https://i.imgur.com/UnSvW3d.png" height="80%" width="80%" alt="Azure Sentinel Tutorial"/>
+<img src="" height="80%" width="80%" alt="Azure Sentinel Tutorial"/>
+<img src="" height="80%" width="80%" alt="Azure Sentinel Tutorial"/>
  
 <br />
 <br />
 Create a username and password, make sure you remember what it is because we're going to use this to log into the virtual machine:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Azure Sentinel Tutorial"/>
+<img src="" height="80%" width="80%" alt="Azure Sentinel Tutorial"/>
 <br />
 <br />
 </p>
